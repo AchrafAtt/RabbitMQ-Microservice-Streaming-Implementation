@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-RabbitmqMicroservicePublishersApplication<rabbitmq-microservice-publishers>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.a2t.rabbitmq_microservice_publishers.RabbitmqMicroservicePublishersApplication",
+      "projectName": "rabbitmq-microservice-publishers",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

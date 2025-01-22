@@ -1,0 +1,13 @@
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    password: guest
+    username: guest
+    template:
+      exchange: user.exchange
+      routingKey: user.routingKey
+server:
+  port: 8081
+
